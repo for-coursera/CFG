@@ -26,9 +26,9 @@ if has("gui_running")
 	    au GUIEnter * set fullscreen 
 	endif
 else
-    if has("win32") || has ('win64')
-        imap ^H <Left><Del>
-    endif
+    " if has("win32") || has ('win64')
+    "     imap ^H <Left><Del>
+    " endif
     set term=$TERM                                                  
     set t_Co=256
     colorscheme slate
