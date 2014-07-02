@@ -26,6 +26,9 @@ if has("gui_running")
 	    au GUIEnter * set fullscreen 
 	endif
 else
+    if has("win32") || has ('win64')
+        imap ^H <Left><Del>
+    endif
     set term=$TERM                                                  
     set t_Co=256
     colorscheme slate
@@ -64,6 +67,7 @@ set smarttab
 set tabstop=4
 set softtabstop=4
 " allow backspacing over everything in insert mode
+set backspace=2
 set backspace=indent,eol,start
 " selecting in INSERT mode
 set foldcolumn=0
