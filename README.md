@@ -1,3 +1,11 @@
-# Config files
+# Initial files for Git@Windows
 
-  * for Windows Git Bash environments ([.bashrc](.bashrc)
+
+### Configs
+
+  * for Windows Git Bash environment: [.bashrc](.bashrc) & [.inputrc](.inputrc)
+  * for Vim: [_vimrc](_vimrc)
+
+### Cheatsheets
+
+  * for Git: [in Microsoft Word format](GIT-cheats.docx)
