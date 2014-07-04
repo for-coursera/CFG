@@ -3,8 +3,7 @@
 
 ### Configs
 
-  * for Windows Git Bash environment: [.bashrc](.bashrc) & [.inputrc](.inputrc)
-  * for Vim: [_vimrc](_vimrc)
+  * for Windows Git Bash environment (including Vim): [CFG.tar](CFG.tar)
 
 ### Cheatsheets
 
